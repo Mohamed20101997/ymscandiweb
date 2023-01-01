@@ -1,0 +1,30 @@
+
+/* define variables*/
+$border-color: #000000;
+
+
+.inputs {
+  display: inline-grid;
+  .input-container {
+    justify-content: space-between;
+    display: flex;
+    margin: 5px 0;
+    div {
+      label {
+        margin-right: 20px;
+      }
+    }
+  }
+}
+.type {
+  border: 2px solid $border-color;
+  padding: 20px;
+}
+.item {
+  border: 2px solid $border-color;
+  padding: 10px;
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+  }
+}
